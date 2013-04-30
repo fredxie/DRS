@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+	<TextView 
+		android:id="@+id/time"
+		android:text="Time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+    
+    <TableRow>
+	<TextView 
+		android:id="@+id/accelerometer"
+		android:text="Accelerometer real-time data"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+       
+    <TableRow>
+	<TextView 
+		android:id="@+id/xcoor"
+		android:text="X Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/ycoor"
+		android:text="Y Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/zcoor"
+		android:text="Z Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/gyroscope"
+		android:text="Gyroscope real-time data"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/xcoor1"
+		android:text="X Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/ycoor1"
+		android:text="Y Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+		android:id="@+id/zcoor1"
+		android:text="Z Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	</TableRow>
+	
+	
+	<TableRow>
+	<ImageView 
+	  android:src="@drawable/wait"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"></ImageView>
+	</TableRow>
+	
+</TableLayout>
+
